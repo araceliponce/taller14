@@ -7,6 +7,10 @@ Repositorio del reto: <https://github.com/marwingaray/s14>
 
 
 
+# Capturas
+![](src/assets/registro-1.png)
+![](src/assets/registro-2.png)
+
 
 
 
