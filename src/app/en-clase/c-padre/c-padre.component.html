@@ -1,0 +1,5 @@
+<form>
+  <input type="text" name="aaa" [(ngModel)]="texto_padre" placeholder="este texto esta inicializado en el ts como string ''. Importante haber importado formsmodule en el modulo contenedor.MUY IMPORTANTE, ese input necesita un name, cualquier nombre">
+  <app-c-hijo1 [texto_padre]="texto_padre" (emitidor_texto_hijo1)="RecibirTexto1($event)"></app-c-hijo1>
+  <p>texto recibido de hijo1: {{texto_recibido}}</p>
+</form>

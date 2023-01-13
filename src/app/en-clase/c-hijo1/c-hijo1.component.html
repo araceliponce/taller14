@@ -1,0 +1,12 @@
+<section style="background-color: lightblue ;">
+  <p>c-hijo1</p>
+  <p> mensaje desde el c-padre:{{texto_padre}}</p>
+</section>
+
+<section style="background-color: lightgreen ;">
+  <p>sigue siendo c-hijo</p>
+  <form>
+    <input type="text" name="bbb" [(ngModel)]="texto_hijo1">
+    <input type="button" value="EnviarTexto1" (click)="EnviarTexto1()">
+  </form>
+</section>
